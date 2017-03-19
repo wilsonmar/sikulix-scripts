@@ -73,10 +73,11 @@
 <span class="cmt"># by Wilson Mar</span>
 <span class="skw">click</span>(<img src="mac-search.png" />) <span class="cmt"># Spotlight search on Apple menu</span>
 <span class="skw">wait</span>(<span class="dig">1</span>)
-<span class="skw">click</span>(<img src="mac-spotlight-entry.png" />)
+<span class="skw">click</span>(<img src="mac-spotlight-entry.png" />) <span class="cmt">#mac-spotlight-entry.png</span>
 <span class="skw">wait</span>(<span class="dig">1</span>)
 <span class="cmt"># ERROR: Script does not type the beginning of the text:</span>
-<span class="skw">click</span>()
+<span class="cmt">#click()</span>
+<span class="cmt">#cursor right?</span>
 <span class="skw">type</span>(<span class="str">"hello world"</span>)
 <span class="skw">wait</span>(<span class="dig">1</span>)
 <span class="cmt"># exit() # stop here</span>
